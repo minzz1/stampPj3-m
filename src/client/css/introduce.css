@@ -1,11 +1,19 @@
+/* body{
+  overflow: hidden;
+} */
 
 .introduce-content-wrap{
   padding: 0;
 }
+.introduce-main-wrap{
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
 /* 지도부분 */
 .content-container-introduce {
   width: 100vw;
-  min-height: calc(100vh -120px);
+  min-height: calc(100vh - 400px);
   margin-top: 60px;
 }
 .introduce-location-map{
@@ -16,7 +24,7 @@
   position: absolute;
   width: 90%;
   min-width: 350px;
-  bottom: -180px;
+  bottom: -185px;
   left: 50%;
   transform: translate(-50%, 0);
   border-radius: 10px 10px 0px 0px;
@@ -131,7 +139,6 @@ input[name="tab_item"] {
 .tabs input:checked + .tab_item {
   background: #efe3eb;
   color: #353535;
-  font-weight: 900;
 }
 
 /* 탭의 캐서셀 */
